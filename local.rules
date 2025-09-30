@@ -1,2 +1,4 @@
-sudo nano /etc/snort/rules/local.rules
+local.rules - custom Snort rules for CodeAlpha Task 4
+Detect ICMP (ping) packets
+
 alert icmp any any -> any any (msg:"ICMP Ping Detected - CodeAlpha Task4"; sid:1000001; rev:1;)
