@@ -1,0 +1,2 @@
+sudo nano /etc/snort/rules/local.rules
+alert icmp any any -> any any (msg:"ICMP Ping Detected - CodeAlpha Task4"; sid:1000001; rev:1;)
