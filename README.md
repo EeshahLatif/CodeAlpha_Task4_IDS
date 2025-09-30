@@ -1,25 +1,31 @@
-# CodeAlpha_Task4_ Network Intrusion Detection System (IDS)
-## Overview
-This repository contains a beginner-friendly IDS submission for the CodeAlpha Cyber Security Internship.
+# CodeAlpha Task 4 - Network Intrusion Detection System (IDS)
 
-It includes:
-- A **Python IDS simulation** (runs locally, suitable for PyCharm/Windows)
-- A simple **Snort rule** (`local.rules`) for real IDS setups
-- Step-by-step Snort/Suricata setup guide (`IDS_SETUP.md`)
-- Demo screenshots and a short report
+## 📌 Overview
+This is my fourth project for the CodeAlpha Cyber Security Internship.  
+It demonstrates basic IDS concepts with:
 
-## Files
-- `python_ids_demo.py` — Python-based IDS simulation (detects ICMP pings)
-- `local.rules` — Example Snort rule to detect ICMP ping
-- `IDS_SETUP.md` — Instructions to install and run Snort (Linux)
-- `run_demo_instructions.txt` — How to run the Python demo locally
-- `screenshots/` — Demo screenshots (upload after you run)
+1. A **Snort rule** to detect ICMP pings (`local.rules`).  
+2. A **Python IDS demo** that runs locally and prints alerts (`python_ids_demo.py`).  
+3. Setup instructions for Snort in `IDS_SETUP.md`.  
+4. Demo screenshot(s) in the `screenshots/` folder.
 
-## Submission checklist
-1. Repo is public and named `CodeAlpha_Task4_IDS`.  
-2. `local.rules` included.  
-3. `python_ids_demo.py` included and working (for screenshot).  
-4. `IDS_SETUP.md` included.  
-5. Upload screenshot(s) to `screenshots/`.  
-6. Record a short LinkedIn video explaining the project and include repo link.
+## 📂 Files in this repository
+- `README.md` — this file  
+- `IDS_SETUP.md` — Snort installation & run instructions (Ubuntu example)  
+- `local.rules` — Snort rule to detect ICMP ping  
+- `python_ids_demo.py` — Python IDS simulation (runs locally)  
+- `run_demo_instructions.txt` — how to run the Python demo and capture screenshot  
+- `REPORT.md` — short explanation of what was done and why  
+- `snort_config_example.txt` — optional snippet to include local.rules in snort.conf  
+- `screenshots/` — folder for demo screenshot(s) (upload `demo_alert.png` here)
 
+## 🎯 Purpose
+- Demonstrate ability to write IDS rules (Snort).  
+- Provide a runnable demo for reviewers who cannot install Snort (Python simulation).  
+- Provide clear documentation so a reviewer or mentor can reproduce or understand the setup.
+
+## ✅ Submission Checklist
+- Repo is public and named `CodeAlpha_Task4_IDS`.  
+- All files above are uploaded.  
+- `screenshots/demo_alert.png` uploaded (after running demo).  
+- LinkedIn video with repo link posted and submission form filled in the internship WhatsApp group.
