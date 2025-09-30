@@ -1,0 +1,17 @@
+How to Run the Python IDS Demo (python_ids_demo.py)
+
+1. Install scapy:
+   pip install scapy
+
+2. Run the script:
+   python python_ids_demo.py
+
+3. In another terminal, run a ping:
+   Windows: ping 127.0.0.1 -n 4
+   Linux/Mac: ping 127.0.0.1 -c 4
+
+4. Expected output:
+   [ALERT] ICMP Ping Detected | src=127.0.0.1 -> dst=127.0.0.1
+
+5. Take a screenshot of this output and save as:
+   screenshots/demo_alert.png
