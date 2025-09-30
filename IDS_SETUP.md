@@ -60,8 +60,3 @@ Notes
 Snort is easiest to install on Ubuntu/Linux.
 
 Windows requires extra setup (Npcap + config).
-
-If you cannot install Snort, use the included python_ids_demo.py for a local demo and upload its screenshot in screenshots/.
-
-
----
