@@ -1,0 +1,5 @@
+# snort_config_example.txt
+# Snort configuration snippet showing how to include local.rules
+
+var RULE_PATH /etc/snort/rules
+include $RULE_PATH/local.rules
